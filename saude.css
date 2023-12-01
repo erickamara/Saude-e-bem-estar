@@ -1,0 +1,274 @@
+ *{
+	margin:0px;
+	padding:0%;
+	
+}
+body{
+	<!--fundo do site>;
+	background:url("topo.jpg");
+	background-repeat:no-repeat;
+	background-size:1400px 760px;
+	background-attachment:fixed;
+	background-color:#7ED957;
+	background-attachment:scroll;	
+}
+.cabeça{
+	<!--cabeçalho-->;
+	display:flex;
+	margin-left:30px;
+	flex-wrap:wrap;
+	max-width:1980px;
+	padding:0 1%;
+	margin-top:25px;
+}
+.titulo{
+	<!--nome saude e bem estar no topo do site-->;
+	color:#006F4E;
+	font-size:240%;
+	font-family:georgia;
+	font-style: oblique;
+}
+header .cadastro button{
+	<!--botão-->;
+	padding:10px 30px;
+	font-size:18px;
+	font-weight:600;
+	background-color:#006F4E;
+	border:0;
+	border-radius:30px;
+	cursor:pointer;	
+	margin:15px 5px;
+}
+header .cadastro button:hover{
+		<!--botão-->;
+	box-shadow:0px 0px 18px #006F4E;
+	display:inline-block;
+}
+.cad{
+	color:white;
+}
+.menu{
+	display:flex;
+	flex-direction:row;
+	width:70%;
+	text-align:right;
+	justify-content:flex-end;
+	text-align:right;
+	padding:8px;	
+}
+.menu a{
+	text-align:right;
+	color:#006F4E;
+	text-decoration:none;
+	font-weight:bold;
+	margin-right:55px;
+	padding:1px;
+	margin:25px;
+}
+.menu a:hover{
+	color:white;
+	transform:scale(1.20);
+	font-style: oblique;
+}
+header img{
+	width: 150px;
+    height: 70px;
+	padding:1px;	
+}
+.começo{
+	display:grid;
+	gap:10px;
+	grid-template-rows:auto auto  auto auto  auto auto;
+	grid-template-columns: auto auto auto  auto;	
+	grid-colums-gap:90px;
+}
+.imgoqsaude{
+	text-align:center;
+	margin-right:53px;
+}
+.t1{
+	margin-top:1px;
+	margin-bottom:5px;
+}
+#ods{
+	justify-self:start;
+	grid-column-start:1;
+	grid-column-end:5;
+	grid-row-start:1;
+	grid-row-end:1;
+	margin-top: 25px;
+	margin-left:110px;
+	margin-right:580px;
+	color:#FFFFFF;
+	font-size:300%;
+	font-family:open sans;
+	font-style: oblique;
+	font-weight: 200px;	
+}
+#tema{           
+	grid-column-start:1;
+	grid-column-end:5;
+	grid-row-start:2;
+	grid-row-end:2;
+	margin-top: -25px;
+	margin-left:110px;
+}
+#intro{
+	grid-column-start:1;
+	grid-column-end:5;
+	grid-row-start:3;
+	grid-row-end:3;
+	margin-top: -10px;
+	margin-right:750px;
+	margin-left:110px;
+	font-family:georgia;
+	font-style: oblique;
+	font-weight: 200px;	
+	color:#FFFFFF;
+	font-size:20px;
+}
+.lo{
+	grid-column:1/5;
+	grid-row-start:3;
+	grid-row-end:3;
+	margin-right:00px;
+	margin-left:500px;
+	text-align:center;
+	margin-top:-240px;
+	
+}
+.conteudo{
+	margin-left:100px;
+	margin-right:100px;
+	font-size:22px;
+}
+.saudeebemestar{
+	margin:155px 100px 25px -5px;
+	color:#006F4E;
+	font-size:300%;
+	font-family:open sans;
+	font-style: oblique;
+	font-weight: 200px;	
+}
+.receitas{
+	margin:100px 100px 25px -5px;
+	color:#006F4E;
+	font-size:300%;
+	font-family:open sans;
+	font-style: oblique;
+	font-weight: 200px;	
+}
+.paf{
+	margin:15px 10px 15px -15px;
+	color:#006F4E;
+	font-size:256%;
+	font-family:open sans;
+	font-style: oblique;
+	font-weight: 200px;	
+}
+.re{
+	display:flex;
+	width:1100px;
+	padding:10px;	
+}
+.re .card{
+	display:flex;
+	max-width:300px;
+	height:215px;
+	background-color:#006F4E;
+	margin:30px 10px;
+	padding:20px 15px;
+	border-radius:35px;	
+}
+.re .card:hover{
+	height:450px;
+}
+.re .card .imgbx{
+	position:relative;
+	max-width:25px;
+	height:260px;
+	top:20px;
+	left:20px;
+	z-index:1;
+}
+.re .card .imgbx img{
+	width:1000%;
+	border-radius:50px;
+}
+.re .card .prep{
+	position:relative;
+	text-align:center;
+	color:white;
+	visibility:hidden;
+	opacity:hidden;
+	transition:0.1s;	
+	font-size:15px;
+	transition:ease-in;
+}
+.re .card:hover .prep{
+	visibility:visible;
+	opacity:1;
+	margin-top:px;
+	transition-delay:0.1s;
+	font-size:15px;
+}
+.imgrec{
+	margin-bottom:25px;
+}
+.prep{
+	display:flex;
+	text-align:left;
+	align-items:flex-end;
+	padding:30px 5px -5px -15px;
+	font-size:15px;
+}	
+
+.ods{
+	color:#FFFFFF;
+	font-size:300%;
+	font-family:open sans;
+	font-style: oblique;
+	font-weight: 200px;	
+}
+.sbe{
+	color:#006F4E;
+	font-size:300%;
+	font-family:open sans;
+	font-style: oblique;
+	font-weight: 200px;	
+}
+.imgoqsaude{
+	text-align:center;
+	margin-right:00px;
+	margin-left:16px;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.s{
+border-radius:50px;
+}
+.imgoqsaude{
+	margin-top:25px;
+}
+footer{
+   width:100%;
+   height: 300px;
+   display: flex;
+   flex-direction:column;
+   align-content: flex-end;
+   background-color:#006F4E;
+   margin-top:100px;
+   color:white;
+   font-size:20px;
+   padding:35px;
+	
+}
+.fontes{
+	margin-top:15px;
+}
+a{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+}
